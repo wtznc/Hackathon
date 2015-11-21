@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9BEC16B4F73CECE847295DC7 /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD8B1113B4B150D02068609 /* Pods_Hackathon.framework */; };
+		B6A258F21BFFB1ED00FCB100 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258F11BFFB1ED00FCB100 /* Utilities.swift */; };
+		B6A258F41BFFBFF500FCB100 /* EventSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258F31BFFBFF500FCB100 /* EventSender.swift */; };
+		B6A258F61BFFD20E00FCB100 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258F51BFFD20E00FCB100 /* SecondViewController.swift */; };
+		B6A258F81BFFDB3500FCB100 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258F71BFFDB3500FCB100 /* NavigationController.swift */; };
+		B6A259011C0002E300FCB100 /* LGSimpleChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258FF1C0002E300FCB100 /* LGSimpleChat.swift */; };
+		B6A259021C0002E300FCB100 /* License in Resources */ = {isa = PBXBuildFile; fileRef = B6A259001C0002E300FCB100 /* License */; };
 		B6A8601F1BFF85EC00739CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8601E1BFF85EC00739CE3 /* AppDelegate.swift */; };
-		B6A860211BFF85EC00739CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A860201BFF85EC00739CE3 /* ViewController.swift */; };
+		B6A860211BFF85EC00739CE3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A860201BFF85EC00739CE3 /* StartViewController.swift */; };
 		B6A860241BFF85EC00739CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A860221BFF85EC00739CE3 /* Main.storyboard */; };
 		B6A860271BFF85EC00739CE3 /* Hackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6A860251BFF85EC00739CE3 /* Hackathon.xcdatamodeld */; };
 		B6A860291BFF85EC00739CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A860281BFF85EC00739CE3 /* Assets.xcassets */; };
@@ -31,9 +37,17 @@
 /* Begin PBXFileReference section */
 		284F14169E46E6DA0D6F6420 /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		317EB592674D8A7D38165BC6 /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
+		B6A258F11BFFB1ED00FCB100 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B6A258F31BFFBFF500FCB100 /* EventSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSender.swift; sourceTree = "<group>"; };
+		B6A258F51BFFD20E00FCB100 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B6A258F71BFFDB3500FCB100 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		B6A258FF1C0002E300FCB100 /* LGSimpleChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGSimpleChat.swift; sourceTree = "<group>"; };
+		B6A259001C0002E300FCB100 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		B6A259031C0002F100FCB100 /* Hackathon-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hackathon-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6A259041C0002F100FCB100 /* Hackathon-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hackathon-Prefix.pch"; sourceTree = "<group>"; };
 		B6A8601B1BFF85EB00739CE3 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A8601E1BFF85EC00739CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6A860201BFF85EC00739CE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6A860201BFF85EC00739CE3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		B6A860231BFF85EC00739CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6A860261BFF85EC00739CE3 /* Hackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hackathon.xcdatamodel; sourceTree = "<group>"; };
 		B6A860281BFF85EC00739CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +96,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B6A258FE1C0002E300FCB100 /* LGSimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				B6A259031C0002F100FCB100 /* Hackathon-Bridging-Header.h */,
+				B6A259041C0002F100FCB100 /* Hackathon-Prefix.pch */,
+				B6A258FF1C0002E300FCB100 /* LGSimpleChat.swift */,
+				B6A259001C0002E300FCB100 /* License */,
+			);
+			path = LGSimpleChat;
+			sourceTree = "<group>";
+		};
 		B6A860121BFF85EB00739CE3 = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +130,14 @@
 		B6A8601D1BFF85EC00739CE3 /* Hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				B6A258FE1C0002E300FCB100 /* LGSimpleChat */,
 				B6A8601E1BFF85EC00739CE3 /* AppDelegate.swift */,
-				B6A860201BFF85EC00739CE3 /* ViewController.swift */,
+				B6A258F31BFFBFF500FCB100 /* EventSender.swift */,
+				B6A258F71BFFDB3500FCB100 /* NavigationController.swift */,
+				B6A258F51BFFD20E00FCB100 /* SecondViewController.swift */,
+				B6A860201BFF85EC00739CE3 /* StartViewController.swift */,
 				B6FDD8421BFFA72000A09FBF /* Structs.swift */,
+				B6A258F11BFFB1ED00FCB100 /* Utilities.swift */,
 				B6A860221BFF85EC00739CE3 /* Main.storyboard */,
 				B6A860281BFF85EC00739CE3 /* Assets.xcassets */,
 				B6A8602A1BFF85EC00739CE3 /* LaunchScreen.storyboard */,
@@ -214,6 +244,7 @@
 			files = (
 				B6A8602C1BFF85EC00739CE3 /* LaunchScreen.storyboard in Resources */,
 				B6A860291BFF85EC00739CE3 /* Assets.xcassets in Resources */,
+				B6A259021C0002E300FCB100 /* License in Resources */,
 				B6A860241BFF85EC00739CE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6FDD8431BFFA72000A09FBF /* Structs.swift in Sources */,
-				B6A860211BFF85EC00739CE3 /* ViewController.swift in Sources */,
+				B6A259011C0002E300FCB100 /* LGSimpleChat.swift in Sources */,
+				B6A258F81BFFDB3500FCB100 /* NavigationController.swift in Sources */,
+				B6A258F41BFFBFF500FCB100 /* EventSender.swift in Sources */,
+				B6A860211BFF85EC00739CE3 /* StartViewController.swift in Sources */,
 				B6A8601F1BFF85EC00739CE3 /* AppDelegate.swift in Sources */,
+				B6A258F61BFFD20E00FCB100 /* SecondViewController.swift in Sources */,
+				B6A258F21BFFB1ED00FCB100 /* Utilities.swift in Sources */,
 				B6A860271BFF85EC00739CE3 /* Hackathon.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
